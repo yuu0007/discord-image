@@ -32,5 +32,5 @@ async function cat() {
 cat();
 ```
 
-# Avaliable Endpoints
+# Available Endpoints
 - cat
