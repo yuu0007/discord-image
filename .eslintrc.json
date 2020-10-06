@@ -1,0 +1,7 @@
+{
+	"extends": "tesseract",
+	"rules": {
+		"no-trailing-spaces": "off",
+		"consistent-return": "off"
+	}
+}
