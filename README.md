@@ -34,3 +34,4 @@ cat();
 
 # Available Endpoints
 - cat
+- dog
