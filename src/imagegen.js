@@ -18,6 +18,14 @@ class ImageGen {
 		return image;
 	}
 
+	async clyde(text) {
+		const { body } = await request.get('https://nekobot.xyz/api/imagegen?type=clyde&text=' + text);
+
+		const content = body.message;
+
+		return content;
+	}
+
 }
 
 module.exports = ImageGen;
