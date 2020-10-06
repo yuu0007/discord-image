@@ -1,3 +1,4 @@
 module.exports = {
-	ImageGen: require('./src/imagegen')
+	ImageGen: require('./src/imagegen'),
+	TextGen: require('./src/textgen')
 };

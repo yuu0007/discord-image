@@ -8,15 +8,19 @@ An image generation wrapper for Discord or any kind!
 - Discord.js example (v12)
 ```js
 const Discord = require('discord.js');
-const { ImageGen } = require('discord-image');
+const { ImageGen, TextGen } = require('discord-image');
+const Text = new TextGen();
 const Image = new ImageGen();
 
 const client = new Discord.Client();
 
 client.on('message', async message => {
 	if (message.content.startsWith === '!cat') {
-		const image = await Image.cat();
-		message.channel.send(image);
+		const cat = await Image.cat();
+		message.channel.send(cat);
+	} else if (message.content.startsWith === '!fact') {
+		const fact = await Text.fact();
+		message.channel.send(fact);
 	}
 });
 
@@ -35,3 +39,4 @@ cat();
 # Available Endpoints
 - cat
 - dog
+- fact
