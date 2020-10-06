@@ -1,6 +1,9 @@
 # discord-image
 An image generation wrapper for Discord or any kind!
 
+# Installing
+```npm install discord-image```
+
 # Examples
 - Discord.js example (v12)
 ```js
