@@ -10,6 +10,14 @@ class ImageGen {
 		return image;
 	}
 
+	async dog() {
+		const { body } = await request.get('https://api.alexflipnote.dev/dogs');
+
+		const image = body.file;
+
+		return image;
+	}
+
 }
 
 module.exports = ImageGen;
