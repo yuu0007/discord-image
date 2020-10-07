@@ -17,13 +17,13 @@ const client = new Discord.Client();
 
 // message event
 client.on('message', async message => {
-	if (message.content.startsWith === '!cat') {
+	if (message.content.startsWith('!cat')) {
 		const cat = await Image.cat();
 		message.channel.send(cat);
-	} else if (message.content.startsWith === '!fact') {
+	} else if (message.content.startsWith('!fact')) {
 		const fact = await Text.fact();
 		message.channel.send(fact);
-	} else if (message.content.startsWith === '!clyde') {
+	} else if (message.content.startsWith('!clyde')) {
 		// replace content with the message you want to clydify
 		const clyde = await Image.clyde(content);
 		message.channel.send(clyde);
