@@ -26,6 +26,14 @@ class ImageGen {
 		return content;
 	}
 
+	async birb() {
+		const { body } = await request.get('https://api.alexflipnote.dev/birb');
+
+		const image = body.file;
+
+		return image;
+	}
+
 }
 
 module.exports = ImageGen;
