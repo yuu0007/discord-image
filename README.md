@@ -1,5 +1,6 @@
 # discord-image
 ![forthebadge](https://img.shields.io/github/stars/yuu0007/discord-image?style=for-the-badge)
+
 An image generation wrapper for Discord or any kind!
 
 # Installing
