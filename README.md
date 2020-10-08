@@ -1,6 +1,8 @@
 # discord-image
 ![forthebadge](https://img.shields.io/github/stars/yuu0007/discord-image?style=for-the-badge) ![forthebadge](https://img.shields.io/github/issues/yuu0007/discord-image?style=for-the-badge) [![Support Server](https://img.shields.io/discord/591914197219016707.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/A3Cnsxx)
 
+[![NPM](https://nodei.co/npm/discord-image.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/discord-image/)
+
 An image generation wrapper for Discord or any kind!
 
 # Installing
