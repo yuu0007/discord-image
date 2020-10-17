@@ -1,4 +1,4 @@
-const request = require('node-superfetch');
+import request from 'node-superfetch';
 
 class ImageGen {
 
@@ -19,7 +19,7 @@ class ImageGen {
 	}
 
 	async clyde(text) {
-		const { body } = await request.get('https://nekobot.xyz/api/imagegen?type=clyde&text=' + text);
+		const { body } = await request.get(`https://nekobot.xyz/api/imagegen?type=clyde&text=${text}`);
 
 		const content = body.message;
 
@@ -36,4 +36,4 @@ class ImageGen {
 
 }
 
-module.exports = ImageGen;
+export default ImageGen;

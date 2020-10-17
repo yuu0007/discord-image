@@ -1,4 +1,4 @@
-const request = require('node-superfetch');
+import request from 'node-superfetch';
 
 class TextGen {
 
@@ -11,4 +11,4 @@ class TextGen {
 	}
 }
 
-module.exports = TextGen;
+export default TextGen;
