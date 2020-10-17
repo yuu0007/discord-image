@@ -1,6 +1,6 @@
 {
   "name": "discord-image",
-  "version": "1.4.6",
+  "version": "1.5.0",
   "description": "An image api for discord.",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "devDependencies": {
     "eslint": "^7.10.0",
     "eslint-config-tesseract": "0.0.3"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
