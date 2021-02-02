@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/yuu0007/discord-image#readme",
   "dependencies": {
-    "node-superfetch": "^0.1.10"
+    "node-superfetch": "^0.1.11"
   },
   "devDependencies": {
     "eslint": "^7.10.0",
